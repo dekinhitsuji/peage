@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>１ちゃんねる</title>
+    <link rel="stylesheet" href="/css/contents.css">
+  </head>
+  <body>
+      <%- include('header') %>
+      <main>
+        <div id="wapper">
+          <%- include('side-ber') %>
+          <div id="content">
+            <div class="head">
+              <% x = 18 %>
+              <h2><%= contents[x]["name"] %></h2>
+            </div>
+            <div class="movie">
+              <div class="contents-table">
+
+                <div class="contents">
+                  <div class="itemWords" id="right">
+                    <div class="itemInfo">
+                      <span class="proName" style="background-color:#cd3e2c;">1channel</span>
+                      <span class="movieCnt" style="color:#cd3e2c;">リンク1件</span>
+                    </div>
+                    <%- include('tag') %>
+
+                  </div>
+                  <a href=<%= contents[x]["URL"] %>><img src=<%= contents[x]["img"] %>></a><br>
+
+                  <div class="nextlink">
+
+                    <a href=<%= contents[x]["URL"] %> target="_blank" onclick="cntup('27829719')" class="btn btn-lg btn-primary btn-block" rel="noopener"><span class="fas fa-new-window"></span><%= contents[x]["name"] %></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <%- include('relation') %>
+          </div>
+        </div>
+      </main>
+  </body>
+</html>
