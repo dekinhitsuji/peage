@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('public'));
 
 const connection = mysql.createConnection({
-  host: 'host=us-cdbr-east-03.cleardb.com',
+  host: 'us-cdbr-east-03.cleardb.com',
   user: 'b9cdf1585a31f3',
   password: '05881e40',
   database: 'heroku_67895f9f6c02e56'
@@ -1047,4 +1047,5 @@ app.get('/con100', (req, res) => {
 
 
 // サーバーを起動するコードを貼り付けてください
-app.listen(3000);
+// app.listen(3000);
+app.listen(process.env.PORT || 8080);
