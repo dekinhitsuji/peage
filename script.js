@@ -7,10 +7,10 @@ const app = express();
 app.use(express.static('public'));
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'toukoudai2',
-  database: 'page'
+  host: 'host=us-cdbr-east-03.cleardb.com',
+  user: 'b9cdf1585a31f3',
+  password: '05881e40',
+  database: 'heroku_67895f9f6c02e56'
 });
 
 
