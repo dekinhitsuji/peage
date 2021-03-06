@@ -1048,4 +1048,5 @@ app.get('/con100', (req, res) => {
 
 // サーバーを起動するコードを貼り付けてください
 // app.listen(3000);
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 3000);
+// app.listen(process.env.PORT || 8080);
