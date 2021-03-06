@@ -175,10 +175,16 @@ app.get('/new-move',(req, res) => {
   res.render('new-move.ejs')
 });
 
-app.get('/',(req,res) => {
-  res.render('index.ejs');
-});
 
+
+app.get('/', (req, res) => {
+  connection.query(
+    "select * from contents order by number desc ",
+    (error,results) => {
+      res.render('index.ejs',{contents:results});
+    }
+  )
+});
 app.get('/page2', (req, res) => {
   connection.query(
     "select * from contents order by number desc ",
