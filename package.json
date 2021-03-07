@@ -2,7 +2,8 @@
   "name": "homepage",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "ejs": "^3.1.6"
   },
   "version": "1.0.0",
   "description": "node api hosted on heroku",
