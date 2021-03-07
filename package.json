@@ -1,5 +1,13 @@
 {
   "name": "homepage",
+  "engines": {
+    "node": "14.16.0",
+    "npm": "6.14.11"
+  },
+  "dependencies": {
+    "express": ">4.17.1",
+    "mysql": ">2.18.1"
+  },
   "version": "1.0.0",
   "description": "node api hosted on heroku",
   "main": "script.js",
@@ -15,14 +23,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dekinhitsuji/peage/issues"
-  },
-  "dependencies": {
-    "express": ">4.17.1",
-    "mysql": ">2.18.1"
-  },
-  "engines": {
-    "node": "14.16.0",
-    "npm": "6.14.11"
   },
   "homepage": "https://github.com/dekinhitsuji/peage#readme"
 
