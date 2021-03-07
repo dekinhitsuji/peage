@@ -1,9 +1,10 @@
 {
   "name": "homepage",
   "version": "1.0.0",
+  "description": "node api hosted on heroku",
   "main": "script.js",
   "scripts": {
-    "start": "script.js",
+    "start": "node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,9 +16,5 @@
   "bugs": {
     "url": "https://github.com/dekinhitsuji/peage/issues"
   },
-  "homepage": "https://github.com/dekinhitsuji/peage#readme",
-  "dependencies": {
-    "foo": "0.0.7"
-  },
-  "description": "",
+  "homepage": "https://github.com/dekinhitsuji/peage#readme"
 }
