@@ -16,7 +16,10 @@
   "bugs": {
     "url": "https://github.com/dekinhitsuji/peage/issues"
   },
-  
+  "dependencies": {
+    "express": ">4.17.1",
+    "mysql": ">2.18.1",  
+  },
   "homepage": "https://github.com/dekinhitsuji/peage#readme"
 
 }
