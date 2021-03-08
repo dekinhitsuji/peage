@@ -6,12 +6,37 @@ const app = express();
 //css imgを置くファイルの指定
 app.use(express.static('public'));
 
-const connection = mysql.createConnection({
-  host: 'us-cdbr-east-03.cleardb.com',
-  user: 'b9cdf1585a31f3',
-  password: '05881e40',
-  database: 'heroku_67895f9f6c02e56'
+// const connection = mysql.createConnection({
+//   host: 'us-cdbr-east-03.cleardb.com',
+//   user: 'b9cdf1585a31f3',
+//   password: '05881e40',
+//   database: 'heroku_67895f9f6c02e56'
+// });
+
+//プール処理
+const pool = mysql.createPool({
+    connectionLimit : 10,
+    host: 'us-cdbr-east-03.cleardb.com',
+    user: 'b9cdf1585a31f3',
+    password: '05881e40',
+    database: 'heroku_67895f9f6c02e56'
 });
+
+pool.getConnection((err, connection) => {
+    if (err) throw err;
+
+    connection.query('select 1 as one', (err, results, fields) => {
+        connection.release();
+
+        if (err) throw err;
+
+        for (const result of results) {
+            console.log(result.one);
+        }
+    });
+
+});
+const connection = pool
 
 
 app.get('/kyonyu', (req, res) => {
