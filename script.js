@@ -6,13 +6,6 @@ const app = express();
 //css imgを置くファイルの指定
 app.use(express.static('public'));
 
-// const connection = mysql.createConnection({
-//   host: 'us-cdbr-east-03.cleardb.com',
-//   user: 'b9cdf1585a31f3',
-//   password: '05881e40',
-//   database: 'heroku_67895f9f6c02e56'
-// });
-
 //プール処理
 const pool = mysql.createPool({
     connectionLimit : 10,
@@ -1072,8 +1065,174 @@ app.get('/con100', (req, res) => {
     }
   )
 });
-
-
+app.get('/con111', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con111.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con112', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con112.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con113', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con113.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con114', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con114.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con115', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('co115.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con116', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con116.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con117', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con117.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con118', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con118.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con119', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con119.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con120', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con120.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con121', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con121.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con122', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con122.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con123', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con123.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con124', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con124.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con125', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('co125.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con126', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con126.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con127', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con127.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con128', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con128.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con129', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con129.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con130', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con130.ejs',{contents:results});
+    }
+  )
+});
+app.get('/con131', (req, res) => {
+  connection.query(
+    "select * from contents order by number",
+    (error,results) => {
+      res.render('con131.ejs',{contents:results});
+    }
+  )
+});
 
 
 
