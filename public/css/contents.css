@@ -101,7 +101,14 @@ margin:33px 5px;
   padding:20px;
   margin-left:20px;
   margin-right:20px;
-
+}
+@media (max-width:670px){
+  .head h2{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 .botton-table{
@@ -173,9 +180,23 @@ margin:33px 5px;
     width:100%;
   }
 }
+@media (max-width:670px){
+  .contents{
+    width:100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+  }
+}
 .contents img{
   margin-bottom:20px;
   width:40%;
+}
+@media (max-width:670px){
+  .contents img{
+    height:150px;
+    width:50%;
+  }
 }
 
 .contentsTag {
@@ -193,14 +214,34 @@ margin:33px 5px;
     text-decoration: none;
 }
 @media (max-width:670px){
+  .contentsTag{
+    font-size: 10px;
+    padding: 1px 2px;
+
+  }
+}
+@media (max-width:670px) {
+  .tag2{
+    font-size: 10px;
+    margin-right: 1px;
+  }
+
+}
+@media (max-width:670px){
   .movie{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
   }
 }
 #right{
   width:60%;
   float:right;
+}
+@media (max-width:670px){
+  #right{
+    width:50%;
+  }
 }
 .itemWords{
   margin-bottom: 15px;
@@ -219,6 +260,11 @@ margin:33px 5px;
   padding:5px;
   margin:5px;
   border-radius: 3px;
+}
+@media (max-width:670px){
+  .nextlink a{
+    font-size:20px;
+  }
 }
 
 .btn-block{
@@ -239,6 +285,12 @@ margin:33px 5px;
   margin-right:50px;
   margin-top:200px;
 }
+@media (max-width:670px){
+  .relativecontents{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
 
 .relativecontents h2{
   color:white;
@@ -247,9 +299,21 @@ margin:33px 5px;
   margin-left:20px;
   margin-right:50px;
 }
+@media (max-width:670px){
+  .table{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 #con-left{
   width:50%;
   float:left;
+}
+@media (max-width:670px){
+  #con-left{
+    width:100%;
+    float:left;
+  }
 }
 @media (max-width:1000px){
   #con-left{
