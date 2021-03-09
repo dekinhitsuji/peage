@@ -188,6 +188,12 @@ margin:33px 5px;
   margin-left: 70px;
   margin-right: 40px;
 }
+@media (max-width:670px){
+  .movie{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
 .row {
     display: flex;
@@ -235,8 +241,13 @@ margin:33px 5px;
     border-radius: 4px;
     padding: 3px;
     border: 1px solid #dadce0;
-
 }
+@media (max-width:670px){
+  .item{
+    width: 100%;
+  }
+}
+
 .mb-2, .my-2 {
     margin-bottom: .5rem!important;
 }
@@ -256,6 +267,17 @@ margin:33px 5px;
     letter-spacing: 0.04em;
     overflow: hidden;
 }
+@media (max-width:670px){
+  .itemTitle {
+    font-size: 90%;
+  }
+}
+@media (max-width:670px){
+  .iconGoodSite {
+    display: none;
+  }
+}
+
 .iconGoodSite{
   background-color: rgba(0,0,255)
   color:white;
@@ -280,7 +302,12 @@ a {
     clear: both;
     position: relative;
 }
-
+@media (max-width:670px){
+  .itemBody img{
+    height: 130px;
+    width: 170px;
+  }
+}
 .itemInfo {
     margin-bottom: 4px;
 }
