@@ -82,7 +82,7 @@
             <div class="movie">
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(0 <= aa) { %>
+                 <% if(a <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
@@ -120,19 +120,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(1 <= aa) { %>
+                  <% if(b <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href= <%= contents[1]["pages"] %>>
+                         <a href= <%= contents[b]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[1]["name"] %>
+                           <%= contents[b]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href= /con1?ver=1>
-                         <img src= <%= contents[1]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href= <%= contents[b]["pages"] %>>
+                         <img src= <%= contents[b]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -160,19 +160,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(2 <= aa) { %>
+                 <% if(c <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[2]["pages"] %>>
+                        <a href=<%= contents[c]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[2]["name"] %>
+                          <%= contents[c]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[2]["pages"] %>>
-                        <img src= <%= contents[2]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[c]["pages"] %>>
+                        <img src= <%= contents[c]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -199,19 +199,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(3 <= aa) { %>
+                  <% if(d <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[3]["pages"] %>>
+                         <a href=<%= contents[d]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[3]["name"] %>
+                           <%= contents[d]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[3]["pages"] %>>
-                         <img src= <%= contents[3]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[d]["pages"] %>>
+                         <img src= <%= contents[d]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -239,19 +239,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(4 <= aa) { %>
+                 <% if(e <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[4]["pages"] %>>
+                        <a href=<%= contents[e]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[4]["name"] %>
+                          <%= contents[e]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[4]["pages"] %>>
-                        <img src= <%= contents[4]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[e]["pages"] %>>
+                        <img src= <%= contents[e]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -278,19 +278,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(5 <= aa) { %>
+                  <% if(f <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[5]["pages"] %>>
+                         <a href=<%= contents[f]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[5]["name"] %>
+                           <%= contents[f]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[5]["pages"] %>>
-                         <img src= <%= contents[5]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[f]["pages"] %>>
+                         <img src= <%= contents[f]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -318,19 +318,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(6 <= aa) { %>
+                 <% if(g <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[6]["pages"] %>>
+                        <a href=<%= contents[g]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[6]["name"] %>
+                          <%= contents[g]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[6]["pages"] %>>
-                        <img src= <%= contents[6]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[g]["pages"] %>>
+                        <img src= <%= contents[g]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -357,19 +357,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(7 <= aa) { %>
+                  <% if(h <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[7]["pages"] %>>
+                         <a href=<%= contents[h]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[7]["name"] %>
+                           <%= contents[h]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[7]["pages"] %>>
-                         <img src= <%= contents[7]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[h]["pages"] %>>
+                         <img src= <%= contents[h]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -397,19 +397,19 @@
               </div>
               <div class="row no-gutters">
                 <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(8 <= aa) { %>
+                 <% if(i <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[8]["pages"] %>>
+                        <a href=<%= contents[i]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[8]["name"] %>
+                          <%= contents[i]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[8]["pages"] %>>
-                        <img src= <%= contents[8]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[i]["pages"] %>>
+                        <img src= <%= contents[i]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -436,19 +436,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(9 <= aa) { %>
+                  <% if(j <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[9]["pages"] %>>
+                         <a href=<%= contents[j]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[9]["name"] %>
+                           <%= contents[j]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[9]["pages"] %>>
-                         <img src= <%= contents[9]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[j]["pages"] %>>
+                         <img src= <%= contents[j]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -476,19 +476,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(10 <= aa) { %>
+                 <% if(k <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[10]["pages"] %>>
+                        <a href=<%= contents[k]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[10]["name"] %>
+                          <%= contents[k]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[10]["pages"] %>>
-                        <img src= <%= contents[10]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[k]["pages"] %>>
+                        <img src= <%= contents[k]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -515,19 +515,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(11 <= aa) { %>
+                  <% if(l <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[11]["pages"] %>>
+                         <a href=<%= contents[l]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[11]["name"] %>
+                           <%= contents[l]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[11]["pages"] %>>
-                         <img src= <%= contents[11]["img"] %> width="200"height="150" class="img-fluid" loading="lazy">
+                       <a href=<%= contents[l]["pages"] %>>
+                         <img src= <%= contents[l]["img"] %> width="200"height="150" class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -555,19 +555,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(12 <= aa) { %>
+                 <% if(m <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[12]["pages"] %>>
+                        <a href=<%= contents[m]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[12]["name"] %>
+                          <%= contents[m]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[12]["pages"] %>>
-                        <img src= <%= contents[12]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[m]["pages"] %>>
+                        <img src= <%= contents[m]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -594,19 +594,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(13 <= aa) { %>
+                  <% if(n <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[13]["pages"] %>>
+                         <a href=<%= contents[n]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[13]["name"] %>
+                           <%= contents[n]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[13]["pages"] %>>
-                         <img src= <%= contents[13]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[n]["pages"] %>>
+                         <img src= <%= contents[n]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -634,19 +634,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(14 <= aa) { %>
+                 <% if(o <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[14]["pages"] %>>
+                        <a href=<%= contents[o]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[14]["name"] %>
+                          <%= contents[o]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[14]["pages"] %>>
-                        <img src= <%= contents[14]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                      <a href=<%= contents[o]["pages"] %>>
+                        <img src= <%= contents[o]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -673,19 +673,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(15 <= aa) { %>
+                  <% if(p <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[15]["pages"] %>>
+                         <a href=<%= contents[p]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[15]["name"] %>
+                           <%= contents[p]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[15]["pages"] %>>
-                         <img src= <%= contents[15]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[p]["pages"] %>>
+                         <img src= <%= contents[p]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -713,19 +713,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(16 <= aa) { %>
+                 <% if(q <= aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[16]["pages"] %>>
+                        <a href=<%= contents[q]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[16]["name"] %>
+                          <%= contents[q]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[16]["pages"] %>>
-                        <img src= <%= contents[16]["img"] %> width="200"height="150" class="img-fluid" loading="lazy">
+                      <a href=<%= contents[q]["pages"] %>>
+                        <img src= <%= contents[q]["img"] %> width="200"height="150" class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -753,19 +753,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(17 <= aa) { %>
+                  <% if(r <= aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[17]["pages"] %>>
+                         <a href=<%= contents[r]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[17]["name"] %>
+                           <%= contents[r]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[17]["pages"] %>>
-                         <img src= <%= contents[17]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[r]["pages"] %>>
+                         <img src= <%= contents[r]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
@@ -793,19 +793,19 @@
               </div>
               <div class="row no-gutters">
                <div class="itemWrapper col-sm-6" id="con-left">
-                 <% if(18 < aa) { %>
+                 <% if(s < aa) { %>
                  <div class="m-1 mb-2 item goodSiteItem">
                    <div class="itemHead">
                      <div class="itemTitle">
-                        <a href=<%= contents[18]["pages"] %>>
+                        <a href=<%= contents[s]["pages"] %>>
                           <span class="iconGoodSite">優良サイト</span>
-                          <%= contents[18]["name"] %>
+                          <%= contents[s]["name"] %>
                         </a>
                       </div>
                     </div>
                     <div class="itemBody">
-                      <a href=<%= contents[18]["pages"] %>>
-                        <img src= <%= contents[18]["img"] %> width="200"height="150" class="img-fluid" loading="lazy">
+                      <a href=<%= contents[s]["pages"] %>>
+                        <img src= <%= contents[s]["img"] %> width="200"height="150" class="img-fluid" loading="lazy">
                       </a>
                       <div id="body-right">
                         <div class="itemInfo">
@@ -833,19 +833,19 @@
                   <% } %>
                 </div>
                 <div class="itemWrapper col-sm-6" id="con-right">
-                  <% if(19 < aa) { %>
+                  <% if(t < aa) { %>
                   <div class="m-1 mb-2 item goodSiteItem">
                     <div class="itemHead">
                       <div class="itemTitle">
-                         <a href=<%= contents[19]["pages"] %>>
+                         <a href=<%= contents[t]["pages"] %>>
                            <span class="iconGoodSite">優良サイト</span>
-                           <%= contents[19]["name"] %>
+                           <%= contents[t]["name"] %>
                          </a>
                        </div>
                      </div>
                      <div class="itemBody">
-                       <a href=<%= contents[19]["pages"] %>>
-                         <img src= <%= contents[19]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
+                       <a href=<%= contents[t]["pages"] %>>
+                         <img src= <%= contents[t]["img"] %> width="200"height="150"  class="img-fluid" loading="lazy">
                        </a>
                        <div id="body-right">
                          <div class="itemInfo">
