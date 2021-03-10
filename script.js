@@ -247,6 +247,14 @@ app.get('/page6', (req, res) => {
     }
   )
 });
+app.get('/page7', (req, res) => {
+  connection.query(
+    "select * from contents order by number desc ",
+    (error,results) => {
+      res.render('page7.ejs',{contents:results});
+    }
+  )
+});
 
 app.get('/index', (req, res) => {
   connection.query(
