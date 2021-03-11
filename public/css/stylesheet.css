@@ -81,6 +81,11 @@ margin:33px 5px;
 #wrapper {
   width: 1000px;
 }
+@media (max-width:670px){
+  .midad{
+    display: none;
+  }
+}
 
 .movie{
   margin-top:70px;
