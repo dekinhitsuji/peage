@@ -88,18 +88,24 @@ margin:33px 5px;
 .mozi{
   font-size: 40px;
 }
-
+.ranku{
+  margin-left: 110px;
+}
 .banar{
   margin-left: 20px;
 }
 .yoko{
-  margin-left: 30px;
   margin-top: 30px;
+  margin-left: 110px;
 }
 #content{
   width:80%;
   float:right;
 
+}
+.topad{
+  margin-top: 30px;
+  margin-left: 70px;
 }
 
 .head{
@@ -109,7 +115,7 @@ margin:33px 5px;
 .head h2{
   border:2px solid #02ccba;
   background-color: #02ccba;
-  margin-top:200px;
+  margin-top:50px;
   padding:20px;
   margin-left:20px;
 }
@@ -167,7 +173,7 @@ margin:33px 5px;
   }
 }
 .otonano2{
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 20px;
 }
 
@@ -178,7 +184,7 @@ margin:33px 5px;
 }
 
 .sideBlockHead{
-  margin-top:200px;
+  margin-top:50px;
 }
 .side-bar{
   border:1px solid black;

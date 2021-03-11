@@ -321,7 +321,19 @@ margin:33px 5px;
     float:left;
   }
 }
-
+.choice{
+  background-color: #FF3366;
+  color: #FFFFFF;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.choice a{
+  text-decoration:none;
+}
+.randam{
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
 #con-right{
   width:50%;

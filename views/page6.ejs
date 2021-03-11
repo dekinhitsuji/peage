@@ -11,35 +11,11 @@
       <main>
         <div id="wapper">
           <div id="side">
-            <div class="sideBlockHead">
-              <div class="topBanner">
-                <div class="item lapornoBanner">
-                  <a href="https://www.youtube.com/watch?v=bL1Pck9qUYo" target="_blank">
-                    <div class="adimage">
-                      <span class="lapornoDesc">らぽふぁんYouTube</span>
-                      <img src="https://i.ytimg.com/vi/bL1Pck9qUYo/mqdefault.jpg" alt="ショートドラマ【私とデートしませんか？#07】最悪な出会い方なのに...。　主演：東条蒼">
-                    </div>
-                    <div class="title"><p>ショートドラマ【私とデートしませんか？#07】最悪な出会い方なのに...。　主演：東条蒼</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="side-bar">
-              <p>人気のコンテンツ</p>
-              <lu>
-                <li>commeingsoon</li>
-                <li>commeingsoon</li>
-                <li>commeingsoon</li>
-                <li>commeingsoon</li>
-                <li>commeingsoon</li>
-                <li>commeingsoon</li>
-              </lu>
-
-            </div>
+            <%- include('sidead') %>
           </div>
 
           <div id="content">
+            <%- include('topad') %>
             <div class="head">
               <h2>新着のおすすめ動画</h2>
             </div>
@@ -77,6 +53,7 @@
               t=129
               %>
             </div>
+            <%- include('midad') %>
             <% let aa = contents.length %>
             <% console.log(aa) %>
             <div class="movie">
