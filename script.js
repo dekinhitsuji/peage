@@ -1093,7 +1093,7 @@ app.get('/con103', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con113.ejs',{contents:results});
+      res.render('con103.ejs',{contents:results});
     }
   )
 });
