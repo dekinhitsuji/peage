@@ -1073,23 +1073,23 @@ app.get('/con100', (req, res) => {
     }
   )
 });
-app.get('/con111', (req, res) => {
+app.get('/con101', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con111.ejs',{contents:results});
+      res.render('con101.ejs',{contents:results});
     }
   )
 });
-app.get('/con112', (req, res) => {
+app.get('/con102', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con112.ejs',{contents:results});
+      res.render('con102.ejs',{contents:results});
     }
   )
 });
-app.get('/con113', (req, res) => {
+app.get('/con103', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
@@ -1097,59 +1097,59 @@ app.get('/con113', (req, res) => {
     }
   )
 });
-app.get('/con114', (req, res) => {
+app.get('/con104', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con114.ejs',{contents:results});
+      res.render('con104.ejs',{contents:results});
     }
   )
 });
-app.get('/con115', (req, res) => {
+app.get('/con105', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con115.ejs',{contents:results});
+      res.render('con105.ejs',{contents:results});
     }
   )
 });
-app.get('/con116', (req, res) => {
+app.get('/con106', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con116.ejs',{contents:results});
+      res.render('con106.ejs',{contents:results});
     }
   )
 });
-app.get('/con117', (req, res) => {
+app.get('/con107', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con117.ejs',{contents:results});
+      res.render('con107.ejs',{contents:results});
     }
   )
 });
-app.get('/con118', (req, res) => {
+app.get('/con108', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con118.ejs',{contents:results});
+      res.render('con108.ejs',{contents:results});
     }
   )
 });
-app.get('/con119', (req, res) => {
+app.get('/con109', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con119.ejs',{contents:results});
+      res.render('con109.ejs',{contents:results});
     }
   )
 });
-app.get('/con120', (req, res) => {
+app.get('/con110', (req, res) => {
   connection.query(
     "select * from contents order by number",
     (error,results) => {
-      res.render('con120.ejs',{contents:results});
+      res.render('con110.ejs',{contents:results});
     }
   )
 });
